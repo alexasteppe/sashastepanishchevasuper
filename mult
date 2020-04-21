@@ -2,7 +2,7 @@
 #include <stdlib.h>
 #include <assert.h>
 
-#include "math.h"
+#include "mult.h"
 
 Vector mult(Matrix m, Vector v) {
     assert(m.x == v.len);
